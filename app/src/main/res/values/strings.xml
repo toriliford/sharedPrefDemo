@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Uber Fare App</string>
+    <string name="btnBack">Back</string>
+    <string name="pgOneTitle">Welcome to Ride Share</string>
+    <string name="btnTxt">Next Page</string>
+    <string name="tvMiles">How many miles is your trip?</string>
+    <string name="tvCarType">What type of vehicle do you prefer?</string>
+    <string name="smartCar">Smart Car</string>
+    <string name="sedan">Sedan</string>
+    <string name="minivan">Minivan</string>
+    <string name="btnEstimate">Estimate Costs</string>
+    <string name="tvMilesTwo">Miles:</string>
+    <string name="placeholder">placeholder</string>
+    <string name="tvCarTwo">Vehicle:</string>
+    <string name="total">Est. Total:</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btnBackTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBack"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tvMilesTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMilesTwo"
+        android:textSize="20sp"
+        android:layout_alignStart="@id/btnBackTwo"
+        android:layout_alignEnd="@id/btnBackTwo"
+        android:layout_below="@id/btnBackTwo"
+        />
+
+    <TextView
+        android:id="@+id/tvMilesChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40sp"
+        android:text="@string/placeholder"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvMilesTwo"
+        android:layout_alignBaseline="@id/tvMilesTwo"
+        />
+
+    <TextView
+        android:id="@+id/tvCarTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvCarTwo"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_alignStart="@id/btnBackTwo"
+        android:layout_alignEnd="@id/btnBackTwo"
+        android:layout_below="@id/tvMilesTwo"
+        />
+
+    <TextView
+        android:id="@+id/tvCarChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40sp"
+        android:text="@string/placeholder"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvCarTwo"
+        android:layout_alignBaseline="@id/tvCarTwo"
+        />
+
+    <TextView
+        android:id="@+id/tvEstTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="20sp"
+        android:layout_below="@id/tvCarTwo"
+        android:layout_alignStart="@id/btnBackTwo"
+        android:layout_marginTop="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvEstTotalChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40sp"
+        android:text="@string/placeholder"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvEstTotal"
+        android:layout_alignBaseline="@id/tvEstTotal"
+        />
+
+    
+
+</RelativeLayout>
